@@ -30,7 +30,7 @@ variable "keyname" {
 }
 
 variable "bucket-name" {
-  default = "Dev-terraform-bucket-3084-5401"
+  default = "dev-terraform-bucket-3084-5401"
   type = string
   
 }
