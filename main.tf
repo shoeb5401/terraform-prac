@@ -1,5 +1,5 @@
 resource "aws_key_pair" "ssl-key" {
-  public_key = file("Login.pub")
+  public_key = file("Login.pem.pub")
   key_name   = var.keyname
 
 

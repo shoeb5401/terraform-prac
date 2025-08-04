@@ -17,3 +17,8 @@ output "aws_s3_bucket" {
   value = aws_s3_bucket.s3_bucket.bucket
 
 }
+
+
+output "vpc_availability_zones" {
+  value = module.vpc.azs
+}
